@@ -1,0 +1,19 @@
+1- User will enter number of any item on VM keypad
+2- VM will show the the item name and price, the item will be shown as unavailable if quantity in VM = 0;
+3- VM will ask the customer for a payment method, card, coins or notes
+4- VM will validate the payment, mainly check the balance and if the process is do-able
+5- VM will return any exchange if there is any ! and alert the customer
+6- VM will do the order, Customer waits to get his order
+7- VM is ready to take a new orders !!!!
+
+
+Notes about application written:
+1- VM is created in main class with custom information
+2- VM items is generated randomly, with custom names, random generated prices, and quantity of 10;
+3- When selecting payment method, total payed money was set as a fixed value in the code, its changeable by changing the values in the constucter.
+    its fixed since VM should know the money payed without asking the user :);
+4- every step is logged to console, VM is interacting with us via console.
+5- multiple checks is done in the code.
+6- Flow might differs than the task doc, I tried to simulate a real VM :)
+7- I draw the UML diagram on an external paper then started the implementation,
+    UML attached  here with the assignment is generated from my work using intellj ide;
